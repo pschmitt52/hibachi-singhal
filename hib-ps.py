@@ -117,7 +117,7 @@ if column_subset > 0:
     data, x, selected = IO.get_subset(data, column_subset, rseed)
     rows = len(data)
     cols = len(x)
-    print(selected)
+    #print(selected)
 
 if column_subset > cols:
     printf("column subset (-c) must be <= number of columns in data\n")
